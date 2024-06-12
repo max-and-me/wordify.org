@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="revisit-after" content="1 days">
+    <meta name="content-language" content="en">
+    <meta name="language" content="english, en">
+    <meta name="robots" content="index,follow,noodp">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://bulma.io/vendor/fontawesome-free-5.15.2-web/css/all.min.css">
     <script>document.addEventListener("DOMContentLoaded", () => { const e = Array.prototype.slice.call(document.querySelectorAll(".navbar-burger")); e.length > 0 && e.forEach(e => { e.addEventListener("click", () => { const t = e.dataset.target, n = document.getElementById(t); e.classList.toggle("is-active"), n.classList.toggle("is-active") }) }) })</script>
     <title>Wordify</title>
 </head>
@@ -18,7 +22,7 @@
                     <p class="has-text-weight-semibold">Wordify</p>
                 </a>
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-                    data-target="navbarBasicExample">
+                    data-target="nav-links">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -28,6 +32,12 @@
             <div id="nav-links" class="navbar-menu">
                 <div class="navbar-start">
                     <a class="navbar-item" href="mailto:hey@wordify.org">Support</a>
+                    <a class="navbar-item" href="https://github.com/max-and-me/wordify-plugin.git" target="_blank"
+                        title="Open Source on GitHub">
+                        <span class="icon">
+                            <i class="fab fa-lg fa-github"></i>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -41,7 +51,8 @@
                         <p class="title is-1">Navigate your project</p>
                         <p class="is-size-5">Get the <b>Wordify</b> ARA PlugIn to make your life easier. Never have to
                             listen to all the speaker stems again. Simply let <b>Wordify</b> analyse it and use
-                            <b>Wordify Search</b> to navigate through your project!</p>
+                            <b>Wordify Search</b> to navigate through your project!
+                        </p>
                         <p class="subtitle is-3 pt-3">Free to use</p>
                         <div class="buttons are-medium">
                             <a class="button is-white" href="#">
@@ -72,7 +83,7 @@
                 <div class="column is-half">
                     <div class="card">
                         <figure class="image is-4by3">
-                        <img src="assets/Wordify_selection.gif" alt="Wordify Selection gif">
+                            <img src="assets/Wordify_selection.gif" alt="Wordify Selection gif">
                         </figure>
                         <div class="card-content">
                             <p class="title is-size-3">Selection</p>
