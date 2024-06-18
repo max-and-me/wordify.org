@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="https://bulma.io/vendor/fontawesome-free-5.15.2-web/css/all.min.css">
     <script>document.addEventListener("DOMContentLoaded", () => { const e = Array.prototype.slice.call(document.querySelectorAll(".navbar-burger")); e.length > 0 && e.forEach(e => { e.addEventListener("click", () => { const t = e.dataset.target, n = document.getElementById(t); e.classList.toggle("is-active"), n.classList.toggle("is-active") }) }) })</script>
     <title>Wordify</title>
+
+    <style>
+        .is-disabled {
+        pointer-events: none;
+        opacity: 0.45;
+        }
+    </style>
+
+
 </head>
 
 <body class="has-navbar-fixed-top">
@@ -56,9 +65,9 @@
                             </p>
                             <h1 class="subtitle">Free to use</h1>
                             <div class="buttons are-medium">
-                                <a class="button is-white" href="#">
+                                <a class="button is-white is-disabled" href="#">
                                     <span>
-                                        <strong>Download for macOS</strong>
+                                        <strong>Download for macos</strong>
                                     </span>
                                 </a>
                                 <a class="button is-white" href="#">
