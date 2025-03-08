@@ -4,13 +4,13 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --wordify-section-color-1: rgb(249, 250, 251);
+        --wordify-section-color-1: var(--bulma-scheme-main-bis);
     }
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --wordify-section-color-1: rgb(64, 64, 64);
+        --wordify-section-color-1: var(--bulma-scheme-main-bis);
     }
 }
 
