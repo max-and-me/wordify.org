@@ -21,7 +21,7 @@
 .theme-dark {}
 
 .hero img {
-    box-shadow: var(-wordify-image-shadow);
+    box-shadow: var(--wordify-image-shadow);
     border-radius: 0.75rem;
 }
 
